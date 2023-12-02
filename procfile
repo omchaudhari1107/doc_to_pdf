@@ -1,1 +1,1 @@
-start: gunicorn 'doc_to_pdf.wsgi'  
+web: gunicorn 'doc_to_pdf.wsgi'
